@@ -1,0 +1,26 @@
+@import '../../styles/sizes.scss';
+
+.sidenav-wrapper{
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+
+    .header-wrapper{
+        height: $header-height;
+        padding: 0px 20px;
+    }
+    .menu-option-list{
+        padding: 0px 20px;
+        flex: auto;
+        overflow-y: auto;
+    }
+    .footer-wrapper{
+        padding: 0px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        height: $header-height;
+    }
+}

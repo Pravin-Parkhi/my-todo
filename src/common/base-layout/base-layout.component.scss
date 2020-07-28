@@ -1,0 +1,14 @@
+@import '../../styles/sizes.scss';
+
+.base-layout-wrapper{
+    width: 100%;
+    display: flex;
+    position: relative;
+    .view-wrapper{
+        width: 70%;
+        padding: 20px;
+        height: 100vh;
+        overflow-y: auto;
+        flex: auto;
+    }
+}
